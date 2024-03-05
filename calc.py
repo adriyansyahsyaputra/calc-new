@@ -255,7 +255,7 @@ for j in range(2, 5):
 		# atur tombol di baris & kolom dan pisahkan dengan bantalan 1 unit
 		btn[i].grid(row=j, column=k, pady=1)
 
-		# put that number as a symbol on that button
+		# letakkan nomor tersebut sebagai simbol pada tombol tersebut
 		btn[i]["command"] = lambda x=numberpad[i]: added_value.numberEnter(x)
 		i += 1
 
